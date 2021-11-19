@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .outer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 297px;
+            height: 70px;
+            background-color: #E4F0F5;
+            text-align: center;
+            text-decoration: none;
+            transition: margin-right 2s ease-in, width 2s ease-in;
+            //transition: width 2s, height 4s;
+
+            &:hover {
+                background-color: #909;
+                width: 149px;
+                margin-right: 100px;
+                //height: 300px;
+            }
+        }
+    }
+}
