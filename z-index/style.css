@@ -1,0 +1,17 @@
+/* Z-Index works with position property */
+div {
+  height: 250px;
+  width: 250px;
+}
+.div1 {
+  background-color: brown;
+  position: absolute;
+  z-index: 1;
+}
+.div2 {
+  background-color: cadetblue;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  z-index: 2;
+}
