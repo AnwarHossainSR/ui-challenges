@@ -1,0 +1,40 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+.div1 {
+  padding: 10px;
+  border: 2px solid greenyellow;
+  position: static;
+  top: 35px;
+  left: 35px;
+}
+.div2 {
+  padding: 10px;
+  border: 2px solid rgb(36, 144, 194);
+  position: relative;
+  left: 35px;
+}
+.div3 {
+  padding: 10px;
+  position: relative;
+  border: 2px solid rgb(145, 14, 25);
+  height: 100px;
+}
+.div4 {
+  padding: 10px;
+  position: absolute;
+  border: 2px solid rgb(10, 199, 111);
+  top: 30px;
+  right: 30px;
+}
+
+.nav {
+  border: 2px solid rgb(60, 10, 199);
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  background-color: aliceblue;
+}
